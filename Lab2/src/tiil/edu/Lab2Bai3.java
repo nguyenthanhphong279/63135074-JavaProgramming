@@ -10,7 +10,7 @@ public class Lab2Bai3 {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("Nhập số điện sử dụng trong tháng: ");
-		double soDien = scanner.nextDouble();
+		int soDien = scanner.nextInt();
 		
 		double tienDien = 0;
 		
