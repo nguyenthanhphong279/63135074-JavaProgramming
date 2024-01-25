@@ -23,9 +23,9 @@ public class Lab2Bai1 {
 			}
 		}
 		else {
-			
+			double x = -b / a;
+			System.out.printf("Nghiệm của phương trình x = %f\n ",x);
 		}
-		
+		scanner.close();
 	}
-
 }
