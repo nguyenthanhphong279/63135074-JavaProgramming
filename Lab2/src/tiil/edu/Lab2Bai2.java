@@ -18,6 +18,15 @@ public class Lab2Bai2 {
 		System.out.print("Nhập hệ số c: ");
 		double c = scanner.nextDouble();
 		
+		// Xét a
+		if (a == 0){
+			if (b == 0){
+				System.out.println("Phương trình có vô số nghiệm.");
+			}else {
+				System.out.println("Phương trình vô nghiệm.");
+			}
+		}
+		
 		//Tính delta
 		double delta = b * b - 4 * a * c;
 		
