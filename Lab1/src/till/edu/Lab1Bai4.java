@@ -25,7 +25,10 @@ public class Lab1Bai4 {
         double c = scanner.nextDouble();
         //Tính delta
         double delta = Math.pow(b, 2) - 4 * a * c;
-
-	}
+        //Tính căn của delta
+        double canDelta = Math.sqrt(delta);
+        System.out.printf("Căn của delta là: %f\n", canDelta);
+        scanner.close();
+    }
 
 }
