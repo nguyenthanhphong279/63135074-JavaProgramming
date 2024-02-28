@@ -1,6 +1,3 @@
-package thuchanh.edu;
-
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -38,24 +35,24 @@ public class LoginFrame extends JFrame {
 		JLabel lblNewLabel = new JLabel("TÊN ĐĂNG NHẬP:");
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
-		lblNewLabel.setBounds(10, 51, 159, 49);
+		lblNewLabel.setBounds(11, 51, 159, 49);
 		contentPane.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("MẬT KHẨU:");
 		lblNewLabel_1.setHorizontalAlignment(SwingConstants.CENTER);
 		lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblNewLabel_1.setBounds(29, 115, 140, 39);
+		lblNewLabel_1.setBounds(30, 143, 140, 39);
 		contentPane.add(lblNewLabel_1);
 		
 		textField = new JTextField();
 		textField.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		textField.setBounds(196, 56, 286, 39);
+		textField.setBounds(196, 56, 292, 39);
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
 		textField_1 = new JTextField();
 		textField_1.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		textField_1.setBounds(196, 115, 286, 39);
+		textField_1.setBounds(196, 143, 292, 39);
 		contentPane.add(textField_1);
 		textField_1.setColumns(10);
 		
@@ -69,7 +66,7 @@ public class LoginFrame extends JFrame {
 		btnNewButton.setBorderPainted(false);
 		btnNewButton.setBackground(new Color(255, 255, 255));
 		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		btnNewButton.setBounds(218, 206, 153, 39);
+		btnNewButton.setBounds(269, 224, 159, 49);
 		contentPane.add(btnNewButton);
 	}
 	
